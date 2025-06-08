@@ -1,0 +1,25 @@
+{
+    "name": "top-cat-software/tcsf-di",
+    "description": "Top Cat Software Framework Dependency Injection module",
+    "type": "library",
+    "license": "MIT",
+    "version": "0.1.0",
+    "autoload": {
+        "psr-4": {
+            "TCSF\\DI\\": "src/",
+            "TCSF\\DI\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Top Cat Software Ltd",
+            "email": "contact@topcat.software"
+        }
+    ],
+    "require": {
+        "php": "^8.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.0"
+    }
+}
