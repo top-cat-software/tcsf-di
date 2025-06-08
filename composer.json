@@ -3,7 +3,7 @@
     "description": "Top Cat Software Framework Dependency Injection module",
     "type": "library",
     "license": "MIT",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "autoload": {
         "psr-4": {
             "TCSF\\DI\\": "src/",
@@ -17,7 +17,7 @@
         }
     ],
     "require": {
-        "php": "^8.4"
+        "php": "^8.3"
     },
     "require-dev": {
         "phpunit/phpunit": "^12.0"
